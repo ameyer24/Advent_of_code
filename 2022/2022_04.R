@@ -22,6 +22,3 @@ no_overlap <- input %>%
   filter(end1 < start2 | end2 < start1)
 # and then subtract from the total
 any_overlap <- nrow(input) - nrow(no_overlap)
-
-
-

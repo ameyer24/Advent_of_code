@@ -1,13 +1,10 @@
-
 # Data Import -------------------------------------------------------------
-
 
 reindeer_snack_data <- read_csv("2022/inputs/2022_01.txt",
                                  col_names = "calorie_value",
                                  skip_empty_rows = FALSE)
 
 # Data Cleaning -----------------------------------------------------------
-
 ## Need a way to group the data using the empty rows.
 
 reindeer_snacks <- reindeer_snack_data %>%
