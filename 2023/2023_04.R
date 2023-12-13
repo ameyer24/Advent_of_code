@@ -55,7 +55,4 @@ part2_1 <- clean_data %>%
 # Seems like we might need a loop here...
 
 
-# Doing it by hand
-
-
 
