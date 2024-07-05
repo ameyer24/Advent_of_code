@@ -1,4 +1,4 @@
-data <- read_fwf("2023/inputs/2023_04.txt",
+data <- read_fwf("2023/input/2023_04.txt",
                  fwf_widths(c(10,29,NA)))
 ## Clean up the data
 clean_data <- data %>%

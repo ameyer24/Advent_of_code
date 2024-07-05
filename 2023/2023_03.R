@@ -1,7 +1,7 @@
 #########################################################
 # Import that data
 
-import <- read_csv("2023/inputs/2023_03.txt",
+import <- read_csv("2023/input/2023_03.txt",
                    col_names = "values")
 
 tidy_import <- import %>%
